@@ -1,5 +1,7 @@
 # Pentadactyl Solarized Theme
 
+[![Join the chat at https://gitter.im/claytron/pentadactyl-solarized](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/claytron/pentadactyl-solarized?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is a color scheme for the incredible [Pentadactyl][penta] add-on
 for [Firefox][ff]. It uses the color palette [Solarized][solar],
 designed by Ethan Schoonover.
@@ -7,13 +9,13 @@ designed by Ethan Schoonover.
 This color scheme aims to be one of the most complete color schemes
 available. Even the help has been styled!
 
-This theme clears out all highlighting settings before applying its own
-in order to avoid bleed over from other themes.
-
 If you have a suggestion or find any bugs with the current
 implementation, please enter an issue in the tracker:
 
 https://github.com/claytron/pentadactyl-solarized/issues
+
+See the [Changelog](https://github.com/claytron/pentadactyl-solarized#changelog)
+for a detailed list of changes in each release.
 
 If you appreciate the work done on this colorscheme, you could buy me a
 :beer: via [Gittip](https://www.gittip.com/claytron/) :smiley:
@@ -21,8 +23,10 @@ If you appreciate the work done on this colorscheme, you could buy me a
 ## License
 
 All works in this repository are licensed under a version of the
-[Open Works License][owl] available for reference here:
+[MIT License][mit_license] available for reference here:
 https://github.com/claytron/pentadactyl-solarized/blob/master/LICENSE
+
+Let all the bits be free, forever.
 
 ## Install
 
@@ -98,6 +102,16 @@ changes go into effect.
 
 ## Changelog
 
+### 2.0 (2015-03-28)
+
+- Now licensed under an MIT license. Long live open source.
+  [claytron]
+
+### 1.0.3 (2015-02-06)
+
+- Remove `hi clear` so that spawning a new window does not take forever. This fixes
+  [#18](https://github.com/claytron/pentadactyl-solarized/issues/18).
+
 ### 1.0.2 (2013-05-28)
 
 - Fix contrast in cmd line input vs suggestion
@@ -145,7 +159,7 @@ changes go into effect.
 [ff]: https://www.mozilla.org/en-US/firefox/fx/
 [penta]: http://5digits.org/pentadactyl/
 [solar]: http://ethanschoonover.com/solarized
-[owl]: http://copyfree.org/licenses/owl/license.txt
+[mit_license]: http://opensource.org/licenses/MIT
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/claytron/pentadactyl-solarized/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
